@@ -5,6 +5,7 @@ Dieser Bot kann für Discord genutzt werden.
 Wichtig: Du kannst ihn auch als sog. „SelfBot” verwenden, dies verstößt allerdings gegen die Discord ToS!
 Gebe den Token des Bots oder deinen persönlichen Token niemals weiter - dies würde den kompletten Zugriff auf den Account bedeuten!
 Aktuell wird nur Windows unterstützt - weitere Betriebssysteme können funktionieren, allerdings erhalten diese keinen Support!
+Wenn du Änderungen an den Dateien vornimmst, musst du zwangsweise den Bot neustarten!
 Du musst dir bevor du den Bot einrichtest das Programm "Node.JS" herunterladen (neuste Version)!
 Sollte der Bot nicht funktionieren, empfehle ich dir zusätzlich das Programm "Git" herunterzuladen (ebenfalls neuste Version)!
 
@@ -48,3 +49,8 @@ In der URL stehen 2 Sachen, welche du speziell auf dich anpassen musst:
 
 Wenn du das ganze angepasst hast, kopiere dir die URL und füge sie in das zuvor erstellte Textdokument für spätere Verwendungen ein.
 Anschließend kannst du die URL im Browser absenden und im Dropdown-Menü „Wähle einen Server” den gewünschten Server auswählen.
+
+➥ Einmal SelfBot und wieder zurück - der Wechsel:
+
+Wenn du das hohe Risiko tatsächlich auf dich nehmen willst, dann kannst du in der Datei „index.js” die letzte Zeile von „bot.login(cfg.token);” auf „bot.login(cfg.bottoken);” umändern.
+Sollte dir das ganze nicht gefallen, kannst du das ganze einfach wieder rückgängig machen.
